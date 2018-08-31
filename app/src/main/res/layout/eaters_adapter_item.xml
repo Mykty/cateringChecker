@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/relativeItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/perImage"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/eater_icon3" />
+
+        <ImageView
+            android:id="@+id/circle_crop"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/circle_back"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:id="@+id/linearL"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/perImage"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/perImage"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/perName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/perTime"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Ішкен уақыты: "
+                android:textColor="@color/orange"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="orange">#ef6c00</color>
+    <color name="red">#dd2c00</color>
+    <color name="lime">#F0F4C3</color>
+    <color name="green">#00c853</color>
+    <color name="blue_grey">#eceff1</color>
+    <color name="fabColor">#F44336</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="tabBack2">#187bc9</color>
+</resources>
